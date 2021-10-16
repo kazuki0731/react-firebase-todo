@@ -28,7 +28,6 @@ export const TodosProvider = ({ children }) => {
           text: doc.data().text,
         });
       });
-      console.log(data);
       setTodos(data);
     } catch (e) {
       console.log(e);
